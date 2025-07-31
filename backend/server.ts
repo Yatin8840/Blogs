@@ -26,6 +26,12 @@ app.use(
   })
 );
 
+app.use(
+  cors({
+    origin: "*",
+    credentials: true
+  })
+);
 app.use(express.json());
 
 import authRoutes from "./routes/authRoutes";
