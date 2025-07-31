@@ -28,7 +28,7 @@ app.use(
 
 app.use(
   cors({
-    origin: "*",
+    origin: ["https://blogs-frontend-three.vercel.app"],
     credentials: true
   })
 );
